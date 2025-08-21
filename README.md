@@ -1,20 +1,20 @@
 # Výstava obrazů A.Muchy - Fiktivní Webová Stránka
 
-## 📋 Popis projektu
+##  Popis projektu
 
-Tento projekt představuje **fiktivní webovou stránku** pro výstavu obrazů Alfonse Muchy ve Výstavišti Ostrava. Jedná se o celodenní cvičení z HTML, CSS a Bootstrapu vytvořené během školní výuky.
+Tento projekt představuje **fiktivní webovou stránku** pro výstavu obrazů Alfonse Muchy ne Výstavišti Ostrava. Jedná se o celodenní cvičení z HTML, CSS a Bootstrapu vytvořené během školní výuky.
 
-## 👨‍💻 Autor
+## Autor
 **Robin Lassak**
 
-## 🎯 Cíle projektu
+##  Cíle projektu
 - Praktické procvičení HTML5
 - Stylování pomocí CSS3 a SCSS
 - Implementace Bootstrap 5 frameworku
 - Vytvoření responzivního designu
 - Práce s formuláři a modálními okny
 
-## 🛠️ Použité technologie
+##  Použité technologie
 
 ### Frontend
 - **HTML5** - Struktura webové stránky
@@ -27,7 +27,7 @@ Tento projekt představuje **fiktivní webovou stránku** pro výstavu obrazů A
 - **Node.js** - Package management
 - **Sass** - Kompilace SCSS do CSS
 
-## 📁 Struktura projektu
+##  Struktura projektu
 
 ```
 FictionalWeb/
@@ -49,7 +49,7 @@ FictionalWeb/
 └── node_modules/          # Node.js dependencies
 ```
 
-## 🎨 Funkce webové stránky
+## Funkce webové stránky
 
 ### 1. **Navigace**
 - Fixní navigační lišta s Bootstrap komponenty
@@ -85,7 +85,7 @@ FictionalWeb/
 - Sociální sítě s Bootstrap ikonami
 - Google Maps iframe
 
-## 🚀 Instalace a spuštění
+##  Instalace a spuštění
 
 ### Předpoklady
 - Node.js (verze 14 nebo vyšší)
@@ -116,14 +116,14 @@ FictionalWeb/
    npx http-server
    ```
 
-## 📱 Responzivní design
+##  Responzivní design
 
 Webová stránka je plně responzivní a optimalizovaná pro:
 - **Desktop** (1200px+)
 - **Tablet** (768px - 1199px)
 - **Mobile** (do 767px)
 
-## 🎨 Design prvky
+##  Design prvky
 
 ### Barevné schéma
 - Primární: Bootstrap secondary (šedá)
@@ -141,21 +141,21 @@ Webová stránka je plně responzivní a optimalizovaná pro:
 - Bootstrap Grid System
 - Bootstrap Icons
 
-## 📝 Poznámky k vývoji
+##  Poznámky k vývoji
 
 - Projekt je vytvořen jako **cvičení** pro školní účely
 - Jedná se o **fiktivní** výstavu - všechny informace jsou smyšlené
 - Kód je strukturovaný pro snadné pochopení a údržbu
 - Používá moderní webové standardy a best practices
 
-## 🔗 Externí odkazy
+##  Externí odkazy
 
 - **Bootstrap 5.3.3**: https://getbootstrap.com/
 - **Bootstrap Icons**: https://icons.getbootstrap.com/
 - **Google Fonts**: https://fonts.google.com/
 - **Alfons Mucha (Wikipedia)**: https://cs.wikipedia.org/wiki/Alfons_Mucha
 
-## 📄 Licence
+## Licence
 
 Tento projekt je vytvořen pro vzdělávací účely. Všechna práva vyhrazena autorovi.
 
