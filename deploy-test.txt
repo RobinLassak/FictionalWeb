@@ -1,1 +1,1 @@
-Toto je test deploy na endoru.
+Toto je druhy test deploy na endoru.
