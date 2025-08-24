@@ -11880,6 +11880,9 @@ body {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 @media (max-width: 767.98px) {
   .navbar {
@@ -11894,11 +11897,15 @@ body {
     font-size: 1.1rem;
     padding: 0.25rem 0;
     white-space: nowrap;
+    flex-shrink: 0;
   }
   .navbar .navbar-toggler {
-    padding: 0.25rem 0.5rem;
-    font-size: 0.9rem;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.85rem;
     border: 1px solid rgba(255, 255, 255, 0.3);
+    flex-shrink: 0;
+    min-width: auto;
+    margin-right: 1rem;
   }
   .navbar .navbar-nav .nav-link {
     font-size: 1rem;
@@ -11917,14 +11924,22 @@ body {
   }
   .navbar .navbar-brand {
     font-size: 1rem;
+    padding: 0.2rem 0;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
   .navbar .navbar-toggler {
-    padding: 0.2rem 0.4rem;
-    font-size: 0.85rem;
+    padding: 0.15rem 0.3rem;
+    font-size: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    flex-shrink: 0;
+    min-width: auto;
+    margin-right: 0.8rem;
   }
   .navbar .navbar-nav .nav-link {
     font-size: 0.95rem;
     padding: 0.4rem 0.6rem;
+    white-space: nowrap;
   }
 }
 @media (max-width: 400px) {
@@ -11938,14 +11953,51 @@ body {
   }
   .navbar .navbar-brand {
     font-size: 0.95rem;
+    padding: 0.15rem 0;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
   .navbar .navbar-toggler {
-    padding: 0.15rem 0.35rem;
-    font-size: 0.8rem;
+    padding: 0.1rem 0.25rem;
+    font-size: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    flex-shrink: 0;
+    min-width: auto;
+    margin-right: 0.6rem;
   }
   .navbar .navbar-nav .nav-link {
     font-size: 0.9rem;
     padding: 0.35rem 0.5rem;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 320px) {
+  .navbar {
+    padding: 0.1rem 0.15rem;
+    min-height: 40px;
+  }
+  .navbar .container {
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+  }
+  .navbar .navbar-brand {
+    font-size: 0.9rem;
+    padding: 0.1rem 0;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .navbar .navbar-toggler {
+    padding: 0.05rem 0.2rem;
+    font-size: 0.7rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    flex-shrink: 0;
+    min-width: auto;
+    margin-right: 0.4rem;
+  }
+  .navbar .navbar-nav .nav-link {
+    font-size: 0.9rem;
+    padding: 0.35rem 0.5rem;
+    white-space: nowrap;
   }
 }
 
@@ -11966,17 +12018,22 @@ body {
 }
 @media (max-width: 767.98px) {
   #Home {
-    padding-top: 65px; /* Upravený padding pro větší navbar */
+    padding-top: 60px; /* Upravený padding pro větší navbar */
   }
 }
 @media (max-width: 575.98px) {
   #Home {
-    padding-top: 60px; /* Upravený padding pro střední navbar */
+    padding-top: 55px; /* Upravený padding pro střední navbar */
   }
 }
 @media (max-width: 400px) {
   #Home {
-    padding-top: 55px; /* Upravený padding pro menší navbar */
+    padding-top: 50px; /* Upravený padding pro menší navbar */
+  }
+}
+@media (max-width: 320px) {
+  #Home {
+    padding-top: 45px; /* Upravený padding pro velmi malé displeje */
   }
 }
 
