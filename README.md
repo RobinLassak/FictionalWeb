@@ -162,3 +162,4 @@ Tento projekt je vytvořen pro vzdělávací účely. Všechna práva vyhrazena 
 ---
 
 *Vytvořeno jako školní projekt pro procvičení HTML, CSS a Bootstrapu*
+
